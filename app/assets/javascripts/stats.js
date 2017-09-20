@@ -19,7 +19,6 @@ function getStatsApi(dateRange)
      type: 'POST',
      url: '/tools/stats.json',
      data: {token: dateRange},
-     async: false,
      dataType: 'json',
      success: function(data){
        //displayStats(data);
